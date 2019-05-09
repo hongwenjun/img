@@ -1,5 +1,3 @@
 # 蘭雅sRGB 图片库
 
-<html>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/e86tCRDqu8c?list=PLPidIcmhqWuRgSDLDdn-NFK1e3Y8pLg7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</html>
+- [蘭雅sRGB![](https://raw.githubusercontent.com/hongwenjun/vps_setup/master/img/youtube.png)频道](https://www.youtube.com/channel/UCupRwki_4n87nrwP0GIBUXA/videos) &nbsp;&nbsp;&nbsp;可以观看相关脚本工具的演示视频!
