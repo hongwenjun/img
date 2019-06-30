@@ -1,11 +1,11 @@
 #!/bin/bash
 # ss-libev  install.sh
 
-mkdir -p /usr/local/bin
-cp ss-*  /usr/local/bin
+wget -O ~/ss.tgz https://github.com/hongwenjun/img/raw/master/bin/ss.tgz
+cd / && tar xvf  ~/ss.tgz
 
-mkdir -p /usr/local/lib
-cp lib*  /usr/local/lib
+export  PATH=PATH:/usr/local/bin
+export  LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/local/lib
 
 ldconfig
 ss-server -h
