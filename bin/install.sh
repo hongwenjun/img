@@ -4,10 +4,12 @@
 wget -O ~/ss.tgz https://github.com/hongwenjun/img/raw/master/bin/ss.tgz
 cd / && tar xvf  ~/ss.tgz
 
-export  PATH=PATH:/usr/local/bin
-export  LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/local/lib
-
+echo "/usr/local/lib" > /etc/ld.so.conf.d/ss-libev.conf
 ldconfig
+
+export PATH=$PATH:/usr/local/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+
 ss-server -h
 
 function print_info {
