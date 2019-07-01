@@ -1,7 +1,7 @@
 #!/bin/bash
-# ss-libev  install.sh
+# ss-libev  install.sh   URL: https://git.io/ss.tgz
 
-wget -O ~/ss.tgz https://github.com/hongwenjun/img/raw/master/bin/ss.tgz
+wget -O ~/ss.tgz https://git.io/ss.tgz
 cd / && tar xvf  ~/ss.tgz
 
 echo "/usr/local/lib" > /etc/ld.so.conf.d/ss-libev.conf
