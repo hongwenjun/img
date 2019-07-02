@@ -1,5 +1,9 @@
 #!/bin/bash
-# ss-libev  install.sh   URL: https://git.io/ss.tgz
+# ss-libev  install.sh   URL: https://git.io/ss.inst
+# Usage: wget -qO- git.io/ss.inst | bash
+
+# Pure Compilation Script For Debian / Ubuntu.     URL: https://git.io/ss.ss
+# Download the binary release of Pure Compilation. URL: https://git.io/ss.tgz
 
 wget -O ~/ss.tgz https://git.io/ss.tgz
 cd / && tar xvf  ~/ss.tgz
