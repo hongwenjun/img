@@ -1,6 +1,8 @@
 ## 安装已经编译完成的Python 3.8 命令
+```
 wget python38.tgz 
 tar xf python38.tgz  && cd Python-3.8.1
+```
 
 ### 安装已经编译完成的Python 3.8 命令
 make install
